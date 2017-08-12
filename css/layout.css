@@ -61,13 +61,8 @@ li { margin: 5px 0px 5px 0px; }
 
 #nav li {
  display: inline;
- padding: 5px 20px 5px 0px;
+ margin: 0px 20px 0px 0px;
  text-transform: uppercase;
-}
-
-.hang {
-  padding-left: 20px ;
-  text-indent: -20px ;
 }
 
 .spacer { width: 10px; }
