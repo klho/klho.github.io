@@ -44,6 +44,10 @@ hr {
 
 li { margin: 5px 0px 5px 0px; }
 
+td.spacer {
+ padding-right: 15px;
+}
+
 #container {
  border-width: 1px;
  border-style: solid;
@@ -63,5 +67,3 @@ li { margin: 5px 0px 5px 0px; }
  margin: 0px 20px 0px 0px;
  text-transform: uppercase;
 }
-
-.spacer { width: 10px; }
