@@ -1,0 +1,215 @@
+.anchor {
+ display: block;
+ height: 30px;
+ margin-top: -30px;
+ visibility: hidden;
+}
+
+.center {
+ text-align: center;
+}
+
+.lightbox {
+ background: rgba(0,0,0,0.8);
+ display: none;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 999;
+}
+
+.lightbox:target {
+ display: block;
+ outline: none;
+}
+
+.lightbox img {
+ border: 10px solid Black;
+ margin-top: 5%;
+ max-height: 80%;
+ max-width: 90%;
+}
+
+.thin {
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ color: Black;
+ text-decoration: none;
+}
+
+a:focus {
+ color: DarkRed;
+ outline: DarkRed dotted 1px;
+}
+
+a:hover {
+ border-bottom: 1px dotted DarkRed;
+ color: DarkRed;
+}
+
+a.button {
+ border: 1px solid Green;
+ border-radius: 8px;
+ color: Green;
+ display: block;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ margin: auto;
+ padding: 10px;
+ text-align: center;
+ width: 60px;
+}
+
+a.button:hover {
+ background-color: rgba(0,255,0,0.2);
+}
+
+a.thumblink {
+ display: inline-block;
+ height: 100px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 150px;
+}
+
+a.thumblink:hover {
+ border: 0;
+ opacity: 0.5;
+}
+
+body {
+ background-color: LightGreen;
+}
+
+div.box {
+ background-color: White;
+ margin: 20px auto 20px auto;
+ padding: 15px;
+}
+
+div.caption {
+ color: White;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+div.first {
+ margin-top: 50px;
+}
+
+div.maxwidth {
+/* max-width: 75%;*/
+ max-width: 768px;
+}
+
+div.poem {
+ display: inline-block;
+ margin-bottom: -5px;
+ text-align: left;
+}
+
+div.poembg {
+ background-position: right bottom;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+div.title {
+ padding-top: 20px;
+ padding-bottom: 10px;
+}
+
+h1.fancy {
+ color: DarkGreen;
+ font: 400 80px "Great Vibes", Helvetica, sans-serif;
+ text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+h2.fancy {
+ font-variant: small-caps;
+ font-weight: normal;
+}
+
+h2.title {
+ color: DarkGreen;
+ font: 400 50px "Great Vibes", Helvetica, sans-serif;
+ margin-bottom: 10px;
+}
+
+img.divider {
+ height: 20px;
+}
+
+img.footer {
+ height: 60px;
+}
+
+img.thumbnail {
+ background-size: cover;
+ display: inline-block;
+ height: 100px;
+ margin: 5px;
+ width: 150px;
+}
+
+img.maxwidth {
+ max-width: 100%;
+}
+
+p {
+ font-family: Palatino, Georgia, serif;
+ text-align: justify;
+}
+
+#gallery li {
+ display: inline-block;
+ list-style-type: none;
+}
+
+#navbar {
+ background-color: White;
+ border: 1px solid Gray;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ height: 15px;
+ left: 0;
+ opacity: 0.75;
+ padding: 10px;
+ position: fixed;
+ text-transform: uppercase;
+ top: 0;
+ width: 100%;
+}
+
+#navmenu {
+ position: fixed;
+ right: 10px;
+ float: right;
+ text-align: right;
+}
+
+#navmenu ul {
+ margin: 0;
+ padding-right: 10px;
+}
+
+#navmenu li {
+ display: inline;
+ list-style-type: none;
+}
+
+#navmenu li:not(:first-child):before {
+ content: " | ";
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+#navtitle {
+ float: left;
+}
+
