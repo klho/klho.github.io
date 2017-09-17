@@ -163,6 +163,12 @@ li {
   margin-right: 2em;
 }
 
+.home-name {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
 
 .cv-header {
   margin-bottom: 1.25em;
