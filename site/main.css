@@ -1,0 +1,189 @@
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+a:visited {
+  color: #1756a9;
+}
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+a:focus {
+  outline-color: #1756a9;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+
+.wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.text-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.text-list li {
+  margin: 0;
+}
+
+
+.site-header {
+  border-top: 5px solid #333;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+  position: relative;
+}
+
+.site-title {
+  color: #333;
+  font-size: 1.5em;
+}
+.site-title:visited {
+  color: #333;
+}
+
+.site-nav {
+  float: right;
+  margin-top: 0.5em;
+}
+.site-nav .page-link {
+  color: #333;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 1em;
+}
+.site-nav .nav-trigger {
+  display: none;
+}
+.site-nav .menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+.site-nav {
+  position: absolute;
+  top: 0.3em;
+  right: 1em;
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  text-align: right;
+}
+.site-nav label[for="nav-trigger"] {
+  display: block;
+  float: right;
+  width: 2.5em;
+  height: 2em;
+  z-index: 2;
+  cursor: pointer;
+}
+.site-nav .menu-icon {
+  display: block;
+  float: right;
+  width: 2.5em;
+  height: 1.5em;
+  padding-top: 0.5em;
+  text-align: center;
+}
+.site-nav .menu-icon > svg path {
+  fill: #333;
+}
+.site-nav input ~ .trigger {
+  clear: both;
+  display: none;
+}
+.site-nav input:checked ~ .trigger {
+  display: block;
+  padding-bottom: 0.5em;
+}
+.site-nav .page-link {
+  display: block;
+  padding: 0.25em 1em;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 0;
+}
+
+}
+
+
+.page-header {
+  margin-bottom: 1.5em;
+}
+
+.page-title {
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.page-nav .section-link {
+  color: #333;
+  margin-right: 0.5em;
+}
+.page-nav .section-link:before {
+  content: "> ";
+}
+
+.section-title {
+  font-size: 1.15em;
+}
+
+
+.home-header {
+  margin-top: 0.5em;
+}
+.home-header .avatar {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.home-col {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.5em 0;
+}
+
+.home-col-1 {
+  margin-right: 2em;
+}
+
+
+.cv-header {
+  margin-bottom: 1.25em;
+}
+
+.cv-name {
+  font-weight: normal;
+}
+
+.cv-table td:not(:last-child) {
+  padding-right: 1.5em;
+}
+
+
+.sub-nav {
+  margin-top: 1em;
+}
+
+.gallery img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+

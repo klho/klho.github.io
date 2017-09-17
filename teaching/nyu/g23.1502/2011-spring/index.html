@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../../../site/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../site/main.css" type="text/css" />
+  <title>Kenneth L. Ho - V63.0255/G23.1502: Computers in Medicine and Biology</title>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="../../../..">Kenneth L. Ho</a>
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="1.5em" height="1em">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+      <div class="trigger">
+        <a class="page-link" href="../../../../cv/">CV</a>
+        <a class="page-link" href="../../../../pubs/">Publications</a>
+        <a class="page-link" href="../../../../pres/">Presentations</a>
+        <a class="page-link" href="../../../../codes">Codes</a>
+        <a class="page-link" href="../../..">Teaching</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="wrapper">
+
+<article>
+  <header class="page-header">
+    <h1 class="page-title">V63.0255/G23.1502: Computers in Medicine and Biology</h1>
+    <ul class="text-list">
+      <li>New York University</li>
+      <li>Spring 2011</li>
+    </ul>
+    <nav class="page-nav sub-nav">
+      <a class="section-link" href="#course-description">Course Description</a>
+      <a class="section-link" href="#section-information">Section Information</a>
+      <a class="section-link" href="#matlab">MATLAB</a>
+      <a class="section-link" href="#latex">LaTeX</a>
+    </nav>
+  </header>
+  <div class="page-content">
+
+<section id="course-description">
+  <h2 class="section-title">Course Description</h2>
+  <p>Introduces students to the use of computer simulation as a tool for investigating biological phenomena. The course requirement is to construct three computer models during the semester, to report on results to the class, and to hand in a writeup describing each project. These projects can be done individually, or as part of a team. Topics discussed in class are the circulation of the blood, gas exchange in the lung, electrophysiology of neurons and neural networks, the renal countercurrent mechanism, cross-bridge dynamics in muscle, and the dynamics of epidemic and endemic diseases. Projects are normally chosen from this list, but may be chosen otherwise by students with other interests.</p>
+</section>
+
+<section id="section-information">
+  <h2 class="section-title">Section Information</h2>
+  <p>I am a teaching assistant for this course under <a href="http://www.math.nyu.edu/faculty/peskin/">Prof. Charles Peskin</a>, along with Lisa Rogers.</p>
+  <p>The course text is <a href="http://www.springer.com/mathematics/mathematical+biology/book/978-0-387-95072-3">Modeling and Simulation in Medicine and the Life Sciences, 2nd ed.</a> by Hoppensteadt and Peskin. MATLAB programs from the book can be downloaded from Prof. Peskin's <a href="http://www.math.nyu.edu/faculty/peskin/">website</a>.</p>
+  <p>Lab times:</p>
+  <ul>
+    <li>Thursday, 8:00 AM &ndash; 9:15 AM, Tisch LC 19</li>
+  </ul>
+  <p>Office hours (Warren Weaver Hall 1011):</p>
+  <ul>
+   <li>Monday: 3:00 PM &ndash; 4:00 PM</li>
+   <li>Wednesday: 5:00 PM &ndash; 6:00 PM</li>
+   <li>by appointment</li>
+  </ul>
+</section>
+
+<section id="matlab">
+  <h2 class="section-title">MATLAB</h2>
+  <p>We will primarily do our computing through <a href="http://www.mathworks.com/products/matlab/">MATLAB</a>, although students are welcome to use other programming languages as well. MATLAB is available on most NYU lab machines. If you wish to run MATLAB on your own computer, you can sign up for the <a href="http://vcl.nyu.edu/">NYU Virtual Computer Lab</a> program (spots are limited!), which allows you to run MATLAB remotely through NYU; or purchase a student version for $99. Another good option is the open-source (free!) "mostly MATLAB-compatible" <a href="http://www.gnu.org/software/octave/">Octave</a>.</p>
+  <p>Materials:</p>
+  <ul>
+    <li><a href="docs/matlab/demo_sa_Csa_var.m">demo_sa_Csa_var.m</a>: script to run <code>sa</code> for various values of <code>Csa</code></li>
+    <li><a href="docs/matlab/fft-freq.pdf">notes</a> on using the Fourier transform to recover signal frequencies</li>
+    <li><a href="docs/matlab/fft_freq.m">fft_freq.m</a>: function to compute a truncated FFT and associated frequencies</li>
+    <li><a href="docs/matlab/demo_fft_freq.m">demo_fft_freq.m</a>: script to recover signal frequencies using the FFT</li>
+  </ul>
+  <p>References:</p>
+  <ul>
+    <li>Moler C (2004) <a href="http://www.mathworks.com/moler/index_ncm.html">Numerical Computing with MATLAB</a>.</li>
+    <li>Sigmon K (1992) <a href="docs/matlab/sigmon-1992-matlab-primer.pdf">MATLAB Primer, 2nd ed.</a></li>
+    <li><a href="http://www.mathworks.com/academia/student_center/tutorials/launchpad.html">MATLAB Tutorial - MathWorks</a></li>
+    <li><a href="http://www.mathworks.com/help/techdoc/index.html">MATLAB Documentation - MathWorks</a></li>
+    <li><a href="http://en.wikibooks.org/wiki/MATLAB_Programming">MATLAB Programming - Wikibooks</a></li>
+  </ul>
+</section>
+
+<section id="latex">
+  <h2 class="section-title">LaTeX</h2>
+  <p><a href="http://www.latex-project.org/">LaTeX</a> is a document typesetting system (built on top of TeX) that is widely used in the sciences. Some of the primary advantages of LaTeX include its excellent support for mathematical notation, its very powerful reference-citation system, and its extensibility through user-created packages.</p>
+  <p>A popular TeX distribution for Windows sytems is <a href="http://miktex.org/">MiKTeX</a>; for Mac and (most) Linux systems, there are prebuilt binaries for <a href="http://www.tug.org/texlive/">TeX Live</a>.</p>
+  <p>Tools:</p>
+  <ul>
+    <li><a href="http://www.tug.org/texworks/">TeXworks</a>: a simple TeX frontend</li>
+    <li><a href="http://www.texify.com/">Texify</a>: an online LaTeX equation writer</li>
+  </ul>
+  <p>Materials:</p>
+  <ul>
+    <li><a href="docs/latex/template.tar.gz">template.tar.gz</a>: template/LaTeX example for project writeup</li>
+  </ul>
+  <p>References:</p>
+  <ul>
+    <li>Oetiker et al. (2010) <a href="http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf">The Not So Short Introduction to LaTeX2e.</a></li>
+    <li><a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX - Wikibooks</a></li>
+  </ul>
+</section>
+
+  </div>
+</article>
+
+  </div>
+</main>
+
+</html>
+
