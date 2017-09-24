@@ -47,21 +47,17 @@ li {
   vertical-align: middle;
   position: relative;
 }
+.site-header a {
+  color: #333;
+}
 
 .site-title {
-  color: #333;
   font-size: 1.5em;
-}
-.site-title:visited {
-  color: #333;
 }
 
 .site-nav {
   float: right;
   margin-top: 0.5em;
-}
-.site-nav .page-link {
-  color: #333;
 }
 .site-nav .page-link:not(:last-child) {
   margin-right: 1em;
@@ -110,6 +106,7 @@ li {
 .site-nav input:checked ~ .trigger {
   display: block;
   padding-bottom: 0.5em;
+  padding-top: 0.25em;
 }
 .site-nav .page-link {
   display: block;
