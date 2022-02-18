@@ -134,6 +134,8 @@ li {
 }
 .page-nav .section-link:before {
   content: "> ";
+  display: inline-block;
+  white-space: pre;
 }
 
 .section-title {
