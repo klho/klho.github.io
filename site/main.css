@@ -177,8 +177,8 @@ li {
   font-weight: normal;
 }
 
-.cv-edu {
-  list-style-type: circle;
+.cv-table td:not(:last-child) {
+  padding-right: 1.5em;
 }
 
 
